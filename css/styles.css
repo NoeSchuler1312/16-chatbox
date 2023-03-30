@@ -1,9 +1,10 @@
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
   background: #000;
   color: #fff;
   font-family: sans-serif;
+  background: #080e10;
 }
 
 img {
@@ -11,8 +12,96 @@ img {
   max-width: 100%;
 }
 
-.container {
+header {
+  background: rgb(8,14,16);
+  background: linear-gradient(0deg, rgba(8,14,16,1) 0%, rgba(12,60,57,1) 100%);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+.container-header {
   display: flex;
-  max-width: 20%;
   flex-flow: row nowrap;
+}
+
+header .icon {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+
+header .icon-dan {
+  width: 70px;
+  height: 70px;
+}
+
+header .icon-arrow {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+header .icon-phone {
+  margin-left: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.message-box {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.message-content {
+  margin: 10px;
+  text-align: left;
+}
+
+.message-box .message-box-sean-sharp {
+  background: #0d7b63;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  align-self: flex-end;
+  max-width: 75%;
+  margin: 0 5px 5px 0;
+}
+
+.message-box .message-box-sean-round {
+  background: #0d7b63;
+  border-radius: 15px;
+  align-self: flex-end;
+  max-width: 75%;
+  margin: 0 5px 3px 0;
+}
+
+.message-box .message-box-dan-sharp {
+  background: #485f68;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  max-width: 75%;
+  margin: 0 0 5px 5px;
+}
+
+.message-box .message-box-dan-round {
+  background: #485f68;
+  border-radius: 15px;
+  max-width: 75%;
+  margin: 0 0 3px 5px;
+}
+
+.message-time-sean {
+  font-size: 13px;
+  font-weight: 300;
+  color: #485f68;
+  text-align: right;
+  margin: 0 5px 0 0;
 }
