@@ -136,7 +136,8 @@ footer .icon {
   margin: auto;
 }
 
-.input {  
+.input {
+  display: flex;
   background: #324248;
   width: 200px;
   border-radius: 30px;
@@ -165,9 +166,21 @@ h2 {
   font-weight: 300;
 }
 
-h2 em {
+h2 a {
   font-style: normal;
   border: #5d7b87 solid;
   border-radius: 30px;
   padding: 3px 5px;
+  color: #5d7b87;
+  text-decoration: none;
+}
+
+input {
+  background: #324248;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  margin: auto;
+  padding: 0 0 0 10px;
+  height: 25px;
 }
