@@ -87,6 +87,7 @@ p {
   background: #485f68;
   border-radius: 15px;
   border-bottom-left-radius: 0;
+  align-self: flex-start;
   max-width: 75%;
   margin: 0 0 5px 5px;
 }
@@ -94,6 +95,7 @@ p {
 .message-box .message-box-dan-round {
   background: #485f68;
   border-radius: 15px;
+  align-self: flex-start;
   max-width: 75%;
   margin: 0 0 3px 5px;
 }
