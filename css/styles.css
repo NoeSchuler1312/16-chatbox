@@ -68,6 +68,10 @@ p {
   font-weight: 400;
 }
 
+em {
+  letter-spacing: -5.5px;
+}
+
 .message-box {
   display: flex;
   flex-flow: column nowrap;
