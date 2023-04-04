@@ -70,6 +70,27 @@ p {
 
 em {
   letter-spacing: -5.5px;
+  margin: 0 5px 0 0;
+}
+
+.message-error {
+  font-size: 13px;
+  font-weight: 300;
+  color: #b80f0f;
+  text-align: right;
+  margin: 0 5px 10px 0;
+  text-transform: none;
+}
+
+strong {
+  font-size: 13px;
+  font-weight: 300;
+  color: #b80f0f;
+  text-align: right;
+  padding: 0 5px;
+  text-transform: none;
+  border: #b80f0f solid 0.8px;
+  border-radius: 30px
 }
 
 .message-box {
